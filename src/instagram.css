@@ -1,0 +1,67 @@
+.img6{
+    height: 30rem;
+}
+.img7{
+    height: 30rem;
+}
+.img8{
+    height: 30rem;
+}
+.image-text{
+    position: absolute;
+    padding-inline-start: 30px;
+    font-family: leon;
+    padding-top: 10px;
+}
+.image-text h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.image-text p{
+    font-size: 17px;
+}.image-text h4{
+    font-size: 24px;
+    font-weight: 700;
+}
+.subscribe p{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: math;
+}
+.sub-input input{
+    border: none;
+    border-bottom: 2px solid black;
+}
+.sub-input ::placeholder{
+    font-size: 13px;
+    font-family: leon;
+}
+.sub-input .sub-button{
+    border-bottom: none;
+    border-radius: 15px;
+    background-color: black;
+    transition: background-color 0.3s ease;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    font-size: small;
+    
+    }
+    .checkitout svg{
+        cursor: pointer;
+    }
+    
+    .svg1:hover{
+        color: #fff;
+    }
+    .sub-button:hover{
+        background-color: gray;
+    }
+    @media only screen and (max-width: 700px){
+        .subscribe{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }

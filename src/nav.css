@@ -1,0 +1,30 @@
+.nav-head{
+   display: flex;
+   /* padding-inline-end: 20px; */
+   gap: 24px;
+}
+.nav-head a{
+   font-size: 16px;
+   color: black;
+   line-height: 20px;
+   font-family: quicksand;
+   font-weight: 400;
+  
+}
+.head-icon-gap{
+   gap: 270px;
+}
+.nav-icons{
+   display: flex;
+   gap: 20px;
+   padding-inline-start: 40px;
+}
+.nav-icons svg{
+
+   transition: color 0.3s ease;
+   transition: transform 0.3s ease;
+}
+.nav-icons svg:hover{
+   color: rgb(235, 50, 4);
+   transform: scale(1.5);
+}

@@ -1,0 +1,54 @@
+.footer-para{
+    gap:60px;
+    font-size: 15px;
+    font-family: leon;
+    padding-top: 30px;
+}
+.footer-para p{
+    cursor: pointer;
+    transition: color 0.3s ease;
+    transition: background-color 0.3s ease;
+
+    
+}
+.footer-para p:hover{
+color: rgb(255, 255, 255);
+background-color: black;
+border-radius: 5px;
+
+}
+
+.main-footer{
+    height: auto;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+
+.foot-icons svg{
+    transition: transform 0.3s ease;
+    transition: color 0.3s ease;
+}
+.foot-icons svg:hover{
+    transform: scale(1.5);
+    color: cadetblue
+
+    
+    ;
+}
+
+@media only screen and (max-width: 700px){
+
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-para{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+}

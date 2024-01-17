@@ -1,0 +1,70 @@
+.slide-head span{
+    font-size: 13px;
+    font-family: Aeonik;
+    font-weight: 500;
+}
+.slide-head h3{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: lora;
+}
+.slide-head input{
+    font-size: 15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    width: 80px;
+}
+.slide-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.first-slide{
+   text-align: center;
+   padding: 200px 0;
+   font-size: 15px;
+   /* background-color: black; */
+   background-image: url(unsplash_Ebwp2-6BG8E.png);
+}
+.second-slide{
+    text-align: center;
+    padding: 200px 0;
+    font-size: 15px;
+    background-image: url(unsplash_fbAnIjhrOL4.png);
+}
+.third-slide{
+    text-align: center;
+    padding: 200px 0;
+    font-size: 15px;
+    background-image: url(unsplash_T0inbt7nRME.png);
+}
+.fourth-slide{
+    text-align: center;
+    padding: 200px 0;
+    font-size: 15px;
+    background-image: url(unsplash_Ebwp2-6BG8E.png);
+}
+
+.plant-prize{
+    position: absolute;
+    bottom: -16px;
+    background-color: #fff;
+    width: 395px;
+    text-align: center;
+    font-family: lora;
+   
+    
+}
+.plant-prize1{
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+
+}
+
+/* @media only screen and (max-width: 600px){
+   .slides .react-slideshow-container{
+        width: 240%;
+    } */
